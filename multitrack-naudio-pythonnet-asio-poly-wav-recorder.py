@@ -211,34 +211,34 @@ def gorecordA(shelf):
         waveIn0.DataAvailable += wave0write
         waveIn0.StartRecording()
     if 1 in checkedlist:
-        waveIn1.DataAvailable += wave0write
+        waveIn1.DataAvailable += wave1write
         waveIn1.StartRecording()
     if 2 in checkedlist:
-        waveIn2.DataAvailable += wave0write
+        waveIn2.DataAvailable += wave2write
         waveIn2.StartRecording()
     if 3 in checkedlist:
-        waveIn3.DataAvailable += wave0write
+        waveIn3.DataAvailable += wave3write
         waveIn3.StartRecording()
     if 4 in checkedlist:
-        waveIn4.DataAvailable += wave0write
+        waveIn4.DataAvailable += wave4write
         waveIn4.StartRecording()
     if 5 in checkedlist:
-        waveIn5.DataAvailable += wave0write
+        waveIn5.DataAvailable += wave5write
         waveIn5.StartRecording()
     if 6 in checkedlist:
-        waveIn6.DataAvailable += wave0write
+        waveIn6.DataAvailable += wave6write
         waveIn6.StartRecording()
     if 7 in checkedlist:
-        waveIn7.DataAvailable += wave0write
+        waveIn7.DataAvailable += wave7write
         waveIn7.StartRecording()
     if 8 in checkedlist:
-        waveIn8.DataAvailable += wave0write
+        waveIn8.DataAvailable += wave8write
         waveIn8.StartRecording()
     if 9 in checkedlist:
-        waveIn9.DataAvailable += wave0write
+        waveIn9.DataAvailable += wave9write
         waveIn9.StartRecording()
     if 10 in checkedlist:
-        waveIn10.DataAvailable += wave0write
+        waveIn10.DataAvailable += wave10write
         waveIn10.StartRecording()
 
     #waveIn.DataAvailable += wave1write
