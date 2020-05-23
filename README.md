@@ -2,7 +2,16 @@
 simultaneous multitrack recording of wav files using naudio &amp; pythonnet -- for multiple devices -- &amp; record poly wav from ASIO
 
 First of all what this project does is provide a frontend to enumerate and record from recording inputs on Windows to stereo wav files.<br>
+Second of all, the zip file is the release.  It's portable... runs on Windows. Unzip the contents and run the program.<br>
 What we have achieved is simultaneous "multitrack" recording from multiple audio usb interfaces.<br>
+<br>
+INSTRUCTIONS:<br>
+The left button initiates simultaneous wav recordings of the checked boxes on the left portion.<br>
+The waves are recorded timestamped into the folder.  You can end the program to stop recording.<br>
+Everything is recorded to the hard disk directly. You do not have to do anything additional to save it from the program's memory.<br>
+If you have ASIO devices, they will be shown on the right and you can check one and hit the right button to record a multitrack "poly wav" of all its channels.<br>
+<br>
+Additional Info - More About The Making Of the Program:<br>
 -Some musician or remixer may find themselves in a situation where they want to record from two or more recording devices.<br>
 For instance, you have an audio interface with a guitar and a synth, and another differently named interface which is your usb microphone.<br>
 You cannot accomplish this recording scenario using Ableton, Fruity Loops, etc. without using ASIO, which functions in an exclusive mode.<br>
