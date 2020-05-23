@@ -1,9 +1,10 @@
 # naudio-pythonnet-multitrack-recorder
-simultaneous multitrack recording of wav files using naudio &amp; pythonnet -- for multiple devices -- &amp; record poly wav from ASIO
-
+simultaneous multitrack recording of wav files using naudio &amp; pythonnet -- for multiple devices -- &amp; record poly wav from ASIO<br>
+<br>
 First of all what this project does is provide a frontend to enumerate and record from recording inputs on Windows to stereo wav files.<br>
 Second of all, the zip file is the release.  It's portable... runs on Windows. Unzip the contents and run the program.<br>
 What we have achieved is simultaneous "multitrack" recording from multiple audio usb interfaces.<br>
+Basically if you had a guitar and a synth hooked up to your audio interface and you also had a usb microphone or even more audio interfaces, you would be able to record those tracks as wavs using this easy prebuilt graphical frontend -having python / csharp naudio multitrack recorder program.<br>
 <br>
 INSTRUCTIONS:<br>
 The left button initiates simultaneous wav recordings of the checked boxes on the left portion.<br>
